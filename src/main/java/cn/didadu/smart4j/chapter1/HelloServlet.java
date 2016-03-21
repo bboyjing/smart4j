@@ -1,4 +1,4 @@
-package cn.didadu.smart4j;
+package cn.didadu.smart4j.chapter1;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
