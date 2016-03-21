@@ -1,10 +1,10 @@
-package cn.didadu.smart4j.chapter3.controller;
+package cn.didadu.smart4j.controller;
 
 import java.lang.reflect.Method;
 
-import cn.didadu.smart4j.chapter3.smartFramework.annotaion.Aspect;
-import cn.didadu.smart4j.chapter3.smartFramework.annotaion.Controller;
-import cn.didadu.smart4j.chapter3.smartFramework.proxy.AspectProxy;
+import cn.didadu.smartframework.annotaion.Aspect;
+import cn.didadu.smartframework.annotaion.Controller;
+import cn.didadu.smartframework.proxy.AspectProxy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

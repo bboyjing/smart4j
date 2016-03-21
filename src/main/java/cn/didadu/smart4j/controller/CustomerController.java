@@ -1,15 +1,15 @@
-package cn.didadu.smart4j.chapter3.controller;
+package cn.didadu.smart4j.controller;
 
 
-import cn.didadu.smart4j.chapter3.model.Customer;
-import cn.didadu.smart4j.chapter3.service.CustomerService;
-import cn.didadu.smart4j.chapter3.smartFramework.annotaion.Action;
-import cn.didadu.smart4j.chapter3.smartFramework.annotaion.Controller;
-import cn.didadu.smart4j.chapter3.smartFramework.annotaion.Inject;
-import cn.didadu.smart4j.chapter3.smartFramework.bean.Data;
-import cn.didadu.smart4j.chapter3.smartFramework.bean.FileParam;
-import cn.didadu.smart4j.chapter3.smartFramework.bean.Param;
-import cn.didadu.smart4j.chapter3.smartFramework.bean.View;
+import cn.didadu.smart4j.model.Customer;
+import cn.didadu.smart4j.service.CustomerService;
+import cn.didadu.smartframework.annotaion.Action;
+import cn.didadu.smartframework.annotaion.Controller;
+import cn.didadu.smartframework.annotaion.Inject;
+import cn.didadu.smartframework.bean.Data;
+import cn.didadu.smartframework.bean.FileParam;
+import cn.didadu.smartframework.bean.Param;
+import cn.didadu.smartframework.bean.View;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package cn.didadu.smart4j.chapter3.model;
+package cn.didadu.smart4j.model;
 
 /**
  * 客户

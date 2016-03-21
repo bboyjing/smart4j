@@ -1,14 +1,21 @@
-package cn.didadu.smart4j.originalServlet.service;
+package cn.didadu.smart4j.service;
 
-import cn.didadu.smart4j.originalServlet.model.Customer;
-import cn.didadu.smart4j.chapter3.smartFramework.helper.DatabaseHelper;
+
+import cn.didadu.smart4j.model.Customer;
+import cn.didadu.smartframework.annotaion.Service;
+import cn.didadu.smartframework.annotaion.Transaction;
+import cn.didadu.smartframework.bean.FileParam;
+import cn.didadu.smartframework.helper.DatabaseHelper;
+import cn.didadu.smartframework.helper.UploadHelper;
 
 import java.util.List;
 import java.util.Map;
 
+
 /**
- * Created by jinggg on 16/3/21.
+ * 提供客户数据服务
  */
+@Service
 public class CustomerService {
 
     /**
@@ -30,13 +37,19 @@ public class CustomerService {
     /**
      * 创建客户
      */
-    public boolean createCustomer(Map<String, Object> fieldMap) {
-        return DatabaseHelper.insertEntity(Customer.class, fieldMap);
+    @Transaction
+    public boolean createCustomer(Map<String, Object> fieldMap,FileParam fileParam) {
+        boolean result = DatabaseHelper.insertEntity(Customer.class, fieldMap);
+        if (result) {
+            UploadHelper.uploadFile("/tmp/upload/", fileParam);
+        }
+        return result;
     }
 
     /**
      * 更新客户
      */
+    @Transaction
     public boolean updateCustomer(long id, Map<String, Object> fieldMap) {
         return DatabaseHelper.updateEntity(Customer.class, id, fieldMap);
     }
@@ -44,8 +57,8 @@ public class CustomerService {
     /**
      * 删除客户
      */
+    @Transaction
     public boolean deleteCustomer(long id) {
-        return DatabaseHelper.deleteEntity(Customer.class,id);
+        return DatabaseHelper.deleteEntity(Customer.class, id);
     }
-
 }
