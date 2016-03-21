@@ -1,4 +1,4 @@
-package cn.didadu.smart4j.util;
+package cn.didadu.smart4j.chapter2.util;
 
 import org.apache.commons.lang3.StringUtils;
 

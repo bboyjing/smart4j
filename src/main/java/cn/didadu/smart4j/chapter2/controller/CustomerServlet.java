@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 进入 客户列表 界面
  */
-@WebServlet("/customer")
+//@WebServlet("/customer")
 public class CustomerServlet extends HttpServlet {
 
     private CustomerService customerService;

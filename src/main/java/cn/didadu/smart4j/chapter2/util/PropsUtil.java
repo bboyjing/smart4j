@@ -1,4 +1,4 @@
-package cn.didadu.smart4j.util;
+package cn.didadu.smart4j.chapter2.util;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 属性文件工具类
  */
-public final class PropsUtil {
+public final class  PropsUtil {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(PropsUtil.class);
 
