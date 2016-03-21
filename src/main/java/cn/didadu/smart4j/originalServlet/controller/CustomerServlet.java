@@ -1,12 +1,11 @@
-package cn.didadu.smart4j.chapter2.controller;
+package cn.didadu.smart4j.originalServlet.controller;
 
-import cn.didadu.smart4j.chapter2.model.Customer;
-import cn.didadu.smart4j.chapter2.service.CustomerService;
+import cn.didadu.smart4j.originalServlet.model.Customer;
+import cn.didadu.smart4j.originalServlet.service.CustomerService;
 
 import java.io.IOException;
 import java.util.List;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

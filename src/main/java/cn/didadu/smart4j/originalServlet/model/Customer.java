@@ -1,4 +1,4 @@
-package cn.didadu.smart4j.chapter2.model;
+package cn.didadu.smart4j.originalServlet.model;
 
 /**
  * Created by jinggg on 16/3/21.

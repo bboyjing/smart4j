@@ -1,7 +1,7 @@
 package cn.didadu.smart4j.chapter3.smartFramework.helper;
 
-import cn.didadu.smart4j.chapter2.util.CollectionUtil;
-import cn.didadu.smart4j.chapter2.util.PropsUtil;
+import cn.didadu.smart4j.originalServlet.util.CollectionUtil;
+import cn.didadu.smart4j.originalServlet.util.PropsUtil;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;

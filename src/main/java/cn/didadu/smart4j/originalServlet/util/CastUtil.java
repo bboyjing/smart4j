@@ -1,4 +1,4 @@
-package cn.didadu.smart4j.chapter2.util;
+package cn.didadu.smart4j.originalServlet.util;
 
 /**
  * 转型操作工具类

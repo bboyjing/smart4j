@@ -1,7 +1,7 @@
-package cn.didadu.smart4j.chapter2;
+package cn.didadu.smart4j.originalServlet;
 
-import cn.didadu.smart4j.chapter2.model.Customer;
-import cn.didadu.smart4j.chapter2.service.CustomerService;
+import cn.didadu.smart4j.originalServlet.model.Customer;
+import cn.didadu.smart4j.originalServlet.service.CustomerService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

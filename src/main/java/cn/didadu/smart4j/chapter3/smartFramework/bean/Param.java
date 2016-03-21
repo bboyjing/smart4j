@@ -1,7 +1,7 @@
 package cn.didadu.smart4j.chapter3.smartFramework.bean;
 
 
-import cn.didadu.smart4j.chapter2.util.CastUtil;
+import cn.didadu.smart4j.originalServlet.util.CastUtil;
 import cn.didadu.smart4j.chapter3.smartFramework.util.CollectionUtil;
 import cn.didadu.smart4j.chapter3.smartFramework.util.StringUtil;
 

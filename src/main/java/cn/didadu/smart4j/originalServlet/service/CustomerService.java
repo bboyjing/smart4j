@@ -1,6 +1,6 @@
-package cn.didadu.smart4j.chapter2.service;
+package cn.didadu.smart4j.originalServlet.service;
 
-import cn.didadu.smart4j.chapter2.model.Customer;
+import cn.didadu.smart4j.originalServlet.model.Customer;
 import cn.didadu.smart4j.chapter3.smartFramework.helper.DatabaseHelper;
 
 import java.util.List;
